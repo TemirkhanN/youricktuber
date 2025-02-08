@@ -9,10 +9,7 @@ import (
 )
 
 func main() {
-	err := godotenv.Load()
-	if err != nil {
-		log.Fatal("Error loading .env file")
-	}
+	godotenv.Load()
 
 	token := os.Getenv("TG_BOT_TOKEN")
 	api, err := tgbotapi.NewBotAPI(token)
