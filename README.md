@@ -1,5 +1,7 @@
 # YouRicktube
 
+[offline] According to reports, the resource is unreachable for users. Even though it's not listed among the blocked resources in RKN registry.
+
 Dummy telegram bot that provides link to ricktube if someone provides youtube link.  
 Useful in Russia where youtube is "not blocked", but unavailable because "google servers are old, man".  
 Ricktube downloads youtube video to own CDN and then shows it. 
